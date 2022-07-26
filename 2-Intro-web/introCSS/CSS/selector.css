@@ -1,0 +1,9 @@
+div{
+    border: red 6px solid;
+    margin: 20px;
+    padding: 30%;
+}
+
+div ~ p{
+    color: red;
+}

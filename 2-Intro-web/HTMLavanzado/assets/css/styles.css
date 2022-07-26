@@ -1,0 +1,33 @@
+ul{
+
+    list-style-type: georgian;
+}
+
+ol{
+    list-style: lower-greek;
+}
+
+h1{
+    background-color: blueviolet;
+    width: fit-content;
+}
+
+div{
+    background-color: aqua;
+    width: 100px;
+}
+
+a{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 200px;
+    height: 100 px;
+    border: 10px solid rebeccapurple;
+}
+
+span{
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed blue;
+}

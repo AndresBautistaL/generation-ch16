@@ -1,0 +1,29 @@
+*{
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: rgb(70, 117, 100);
+    width: auto;
+    height: 200px;
+}
+
+main{
+    background-color: rgb(75, 113, 115);
+    width: auto;
+    height: 600px;
+}
+
+
+footer{
+    background-color: rgb(59, 106, 135);
+    width: auto;
+    height: 150px;
+}
+
+.class{
+    display: inline-block;
+    width: 13rem;
+    height: 10rem;
+    background-color: rgb(54, 115, 132);
+}
