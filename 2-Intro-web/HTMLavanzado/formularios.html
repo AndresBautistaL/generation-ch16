@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/formularios.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <div class="campo">
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Panchito Lopez" name="nombre" id="nombre">
+        </div>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="panchito@gmail.com">
+        </div>
+
+        <div class="campo">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password">
+        </div>
+        
+        <div class="campo">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div class="campo">
+            <label for="number">Number</label>
+            <input type="number" name="number" id="number" min="0" max="20" step="4">
+        </div>
+
+        <div class="campo">
+            <label for="range">Rango</label>
+            <input type="range" name="range" id="range" min="0" max="20" step="4">
+        </div>
+
+        <div class="campo">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="date" id="fecha">
+        </div> 
+
+        <div class="campo">
+            <label for="archivo">Archivo</label>
+            <input type="file" name="archivo" id="archivo">
+        </div>
+
+        <div class="campo">
+            <label for="radio">Radio</label>
+            <input type="radio" name="radio" id="radio">
+        </div>
+        
+        <div class="campo">
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+
+        <!-- <button type="submit">Enviar</button> -->
+        <div>
+        <input type="reset" value="Limpiar">
+        </div>
+    </form>
+
+    <h3>Input de rango con marcas</h3>
+    <input type="range" list="tickmarks">
+
+    <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="5"></option>
+        <option value="10"></option>
+    </datalist>
+
+</body>
+</html>
