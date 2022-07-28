@@ -1,8 +1,20 @@
+html{
+    font-size: 16px;
+}
+
+.cuadro-padre {
+    font-size: 10px;
+}
+
 .cuadro{
+    /* 1 rem = 16 px -> Dependen de la raíz = html */
+    /* 1 em = 16 px -> Toma la unidad del padre*/
     /* background-color: aqua;  */
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
+    /*    height: 100px;
     width: 100px;
-/*    margin-top: 10px;
+    margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 30px;
     margin-left: 40px;
