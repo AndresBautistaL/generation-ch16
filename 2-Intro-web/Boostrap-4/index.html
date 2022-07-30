@@ -6,11 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a Boostrap</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/micss/style.css">
 </head>
 <body>
-    <h1>Introducción a Boostrap</h1>
-    <h2>Esto es sólo una Introducción</h2>
-    <button>soy un boton</button>
+   <!--  <h1>Introducción a Boostrap</h1>
+    <button class="btn-success">soy un boton</button>  -->
+    
+    
+<div class="container border">
+        <header class="col-12 bd-primary text-black p-2  ">
+            <h2>Esto es sólo una Introducción</h2>
+        </header>
+
+
+    
+        <!-- El menu -->
+
+    <nav  id="menu" class="col-12 bg-secondary">
+        <ul class="row w-100">
+            <li class="col">Inicio</li>
+            <li class="col">Pagina</li>
+            <li class="col">Pagina</li>
+            <li class="col">Contacto</li>
+        </ul>
+    </nav>
+
+        <!-- contenido -->
+        <!-- barra lateral -->
+        <section class="col-12">
+            <div class="row">
+                <!-- contenidos productos -->
+                <!-- section -->
+                <section class="col-9 border">
+                    <h2>Productos</h2>
+                <hr>
+                <div class="item row">
+                    <div class="item col-3 bg-primary m-2">
+                        Producto1
+                    </div>
+                    <div class="item col-3 bg-secondary m-2">
+                        Producto2
+                    </div>
+                    <div class="item col-3 bg-danger m-2">
+                        Producto3
+                    </div>
+                    <div class="item col-3 bg-primary m-2">
+                        Producto1
+                    </div>
+                    <div class="item col-3 bg-secondary m-2">
+                        Producto2
+                    </div>
+                    <div class="item col-3 bg-danger m-2">
+                        Producto3
+                    </div>
+                    <div class="item col-3 bg-primary m-2">
+                        Producto1
+                    </div>
+                    <div class="item col-3 bg-secondary m-2">
+                        Producto2
+                    </div>
+                    <div class="item col-3 bg-danger m-2">
+                        Producto3
+                    </div>
+                </div>
+                </section>
+                <!-- barra lateral -->
+                <aside class="col-3">
+                    <h2>Barra lateral</h2>
+                </aside>
+            </div>
+        </section>
+
+        <footer class="col-lg bg-info   ">
+            Esto es un footer 
+        </footer>
+
+</div>
+    
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="jQuery/jquery-3.6.0.min.js"></script>
 </body>
