@@ -1,5 +1,6 @@
 let dineroCajero = 10000;
 let temp = 0;
+
 while(temp !=3){
     let transacion = prompt("Menú Cajero: \n 1) Escriba 1 para retirar \n 2) Escriba 2 para consultar saldo \n 3) Escriba 3 para terminar operación");
 
