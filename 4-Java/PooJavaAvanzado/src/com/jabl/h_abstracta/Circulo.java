@@ -1,20 +1,22 @@
 package com.jabl.h_abstracta;
 
 public class Circulo extends FigurasGeometricas{
-    private float    radio;
+    private float radio;
     @Override
     public float area(){
-        return Math.PI * Math.pow(radio, 2);
+        return (float) (Math.PI * Math.pow(radio, 2));
     }
 
-    public Circulo(){}
-
     public Circulo(float radio){
+        super("Circulo");
         this.radio = radio;
     }
 
     public float getRadio(){
         return radio;
-
     }
+
+ /*   public void setRadio(float radio){
+        this.radio = radio;
+    }*/
 }
